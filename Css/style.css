@@ -1,0 +1,314 @@
+/*--=============
+common css start
+===============--*/
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/*--=============
+common css end
+===============--*/
+ .nav-banimg {
+    background-color:#48C1C9 ;
+ }
+/*--=============
+Navber css start
+===============--*/
+
+.bg-body-tertiary {
+    background-color:#48C1C9 !important ;
+    
+}
+.navbar-brand{
+    height: 100px;
+    width: 100px;
+}
+.navbar-brand img{
+    height: 100%;
+    width: 85%;
+    border-radius: 51%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #EFF4FA;
+    margin-left: 30px;
+}
+.navbar-expand-lg .navbar-collapse {
+        margin-left: 100px;
+    }
+/*--=============
+Navber css start
+===============--*/
+/*--=============
+Banner css start
+===============--*/
+.banner{
+    background-color:#48C1C9 !important ;
+   padding: 5% 0;
+}
+.banner h1{
+    font-weight: 900;
+    font-size: 64px;
+    font-family: "Playfair", serif;
+    color: black;
+   
+}
+.banner h2{
+    font-weight: 700;
+    font-size: 64px;
+    font-family: "Open Sans", sans-serif;
+    color:#F5F2EB;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 22px;
+       font-family: "Poppins", sans-serif;
+    color: black;
+    width: 561px;
+}
+.banner a{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color:#F5F2EB !important;
+}
+.banner .banner-img{
+    width: 600px;
+    height: 400px;
+    
+}
+.banner .banner-img img{
+    width: 100%;
+    min-height: 100%;
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*--=============
+Banner css start
+===============--*/
+/*--=============
+About css start
+===============--*/
+.about{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.about h1{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Playfair", serif;
+    color: blue;
+    margin-top: 50px;
+}
+.about h2{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+      font-family: "Poppins", sans-serif;
+}
+.about a{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*--=============
+About css start
+===============--*/
+/*--=============
+servises css start
+===============--*/
+.servises{
+    background-color: rgba(0, 0, 255, 0.1);
+    padding: 100px 0;
+}
+.servises .title{
+    align-items: center;
+    text-align: center;
+}
+.servises .title h1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Playfair", serif;
+    color: blue;
+    margin-top: 50px;
+}
+.servises .title h2{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.servises .title p {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+      font-family: "Poppins", sans-serif;
+}
+.servises .servise-cardimg{
+    height: 250px;
+    width: 350px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.servises .servise-cardimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.servises .servise-cardimg .overly{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    text-align: center;
+    transition: .5s;
+    position: absolute;
+    background-color: rgba(90, 90, 231, 0.450);
+    padding-top: 170px;
+    padding-bottom: 25px;
+    border-radius: 5%;
+}
+.servises .servise-cardimg:hover .overly{
+    top: 0;
+}
+.servises .servise-cardimg .overly a{
+    background-color: #EFF4FA;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    padding: 10px 70px;
+}
+/*--=============
+servises css end
+===============--*/
+/*--=============
+Coming css start
+===============--*/
+.coming{
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 60px 0;
+    margin: 40px 0;
+
+}
+.coming .heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.coming .heading h1{
+    font-weight: 900;
+    font-size: 64px;
+    font-family: "Playfair", serif;
+    color: red;
+
+}
+.coming .coming-cardimg{
+    height: 300px;
+    width: 539px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.coming .coming-cardimg img{
+    height: 100%;
+    width: 100%;
+}
+.coming .coming-cardimg .card-title{
+    text-align: center !important;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+/*--=============
+Coming css end
+===============--*/
+/*--=============
+Help css start
+===============--*/
+.help{
+    padding: 40px 0;
+    background-color: #6ccd48;
+    margin:40px 0 ;
+}
+.help .help-img{
+    height: 350px;
+    width: 550px;
+}
+.help .help-img img{
+    height: 100%;
+    width: 100%;
+}
+.help .title h1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Playfair", serif;
+    color: black;
+    margin-top: 50px;
+}
+.help .title h2{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.help .title p {
+    width: 432px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+/*--=============
+Help css end
+===============--*/
+/*--=============
+Contact css end
+===============--*/
+.contact{
+    background-color: navy;
+    padding: 50px;
+}
+.contact .title{
+    text-align: center;
+}
+.contact .title h1{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "Playfair", serif;
+    color: white;
+}
+
+.contact .title a{
+    display: block;
+     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/*--=============
+Contact css end
+===============--*/
